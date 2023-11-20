@@ -12,6 +12,7 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.AddCircle
+import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.Card
 import androidx.compose.material3.Checkbox
@@ -76,9 +77,9 @@ fun PantallaHome(navController : NavHostController?) {
                 modifier = Modifier.padding(16.dp)
             )
             ExtendedFloatingActionButton(
-                onClick = {  deleteMode = true },
-                icon = { Icon(Icons.Filled.AddCircle, "Extended floating action button.") },
-                text = { Text(text = "Add") },
+                onClick = {  deleteMode = !deleteMode },
+                icon = { Icon(Icons.Filled.Delete, "Extended floating action button.") },
+                text = { Text(text = "Delete") },
                 modifier = Modifier.padding(16.dp)
             )
         }
@@ -88,14 +89,14 @@ fun PantallaHome(navController : NavHostController?) {
 fun Carta(imagen: Int, jugador: jugador, deleteMode: Boolean){
     var selectedOptions by remember { mutableStateOf(listOf<String>())  }
     Card(modifier = Modifier.fillMaxWidth(), border = BorderStroke(2.dp, Color.Black)){
-        Row(modifier = Modifier.fillMaxWidth()){
+        Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween){
             Image(painter = painterResource(imagen), contentDescription = "",
                 contentScale = ContentScale.Crop, modifier = Modifier
                     .size(64.dp)
                     .clip(
                         CircleShape
                     ))
-            Column {
+            Column (modifier = Modifier.weight(5F)){
                 Text(text=jugador.nombre, textAlign = TextAlign.Center, modifier = Modifier
                     .fillMaxWidth())
                 Text(text=jugador.equipo, textAlign = TextAlign.Center, modifier = Modifier
@@ -104,6 +105,7 @@ fun Carta(imagen: Int, jugador: jugador, deleteMode: Boolean){
             if(deleteMode){
                 Checkbox(
                     checked = selectedOptions.contains(jugador.nombre),
+                    modifier =  Modifier.weight(1F).padding(start = 4.dp, top = 8.dp),
                     onCheckedChange = { selected ->
                         val currentSelected = ArrayList(selectedOptions)
                         if (selected) {
@@ -114,6 +116,9 @@ fun Carta(imagen: Int, jugador: jugador, deleteMode: Boolean){
                         selectedOptions = currentSelected
                     }
                 )
+            }
+            if(!deleteMode){
+
             }
         }
     }
