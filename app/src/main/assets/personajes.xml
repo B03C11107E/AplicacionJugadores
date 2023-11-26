@@ -1,0 +1,64 @@
+<personajes>
+    <personaje juego="SF6" nombre="Ryu"/>
+    <personaje juego="SF6" nombre="Luke"/>
+    <personaje juego="SF6" nombre="Jamie"/>
+    <personaje juego="SF6" nombre="Chun-Li"/>
+    <personaje juego="SF6" nombre="Guile"/>
+    <personaje juego="SF6" nombre="Kimberly"/>
+    <personaje juego="SF6" nombre="Juri"/>
+    <personaje juego="SF6" nombre="Ken"/>
+    <personaje juego="SF6" nombre="E. Honda"/>
+    <personaje juego="SF6" nombre="Dhalsim"/>
+    <personaje juego="SF6" nombre="Blanka"/>
+    <personaje juego="SF6" nombre="Manon"/>
+    <personaje juego="SF6" nombre="Marisa"/>
+    <personaje juego="SF6" nombre="JP"/>
+    <personaje juego="SF6" nombre="Lily"/>
+    <personaje juego="SF6" nombre="Dee Jay"/>
+    <personaje juego="SF6" nombre="Cammy"/>
+    <personaje juego="SF6" nombre="Zangief"/>
+    <personaje juego="Tekken 8" nombre="Jin"/>
+    <personaje juego="Tekken 8" nombre="Kazuya"/>
+    <personaje juego="Tekken 8" nombre="Jun"/>
+    <personaje juego="Tekken 8" nombre="Paul"/>
+    <personaje juego="Tekken 8" nombre="Law"/>
+    <personaje juego="Tekken 8" nombre="King"/>
+    <personaje juego="Tekken 8" nombre="Lars"/>
+    <personaje juego="Tekken 8" nombre="Jack-8"/>
+    <personaje juego="Tekken 8" nombre="Xiaoyu"/>
+    <personaje juego="Tekken 8" nombre="Nina"/>
+    <personaje juego="Tekken 8" nombre="Leroy"/>
+    <personaje juego="Tekken 8" nombre="Lili"/>
+    <personaje juego="Tekken 8" nombre="Hwoarang"/>
+    <personaje juego="Tekken 8" nombre="Asuka"/>
+    <personaje juego="Tekken 8" nombre="Bryan"/>
+    <personaje juego="Tekken 8" nombre="Claudio"/>
+    <personaje juego="Tekken 8" nombre="Azucena"/>
+    <personaje juego="Tekken 8" nombre="Raven"/>
+    <personaje juego="Tekken 8" nombre="Feng"/>
+    <personaje juego="GGS" nombre="Sol Badguy"/>
+    <personaje juego="GGS" nombre="Ky Kiske"/>
+    <personaje juego="GGS" nombre="May"/>
+    <personaje juego="GGS" nombre="Faust"/>
+    <personaje juego="GGS" nombre="Potemkin"/>
+    <personaje juego="GGS" nombre="Chipp Zanuff"/>
+    <personaje juego="GGS" nombre="Zato-ONE"/>
+    <personaje juego="GGS" nombre="Millia Rage"/>
+    <personaje juego="GGS" nombre="Axl Low"/>
+    <personaje juego="GGS" nombre="Testament"/>
+    <personaje juego="GGS" nombre="Baiken"/>
+    <personaje juego="GGS" nombre="Johnny"/>
+    <personaje juego="GGS" nombre="Anji Mito"/>
+    <personaje juego="GGS" nombre="Bridget"/>
+    <personaje juego="GGS" nombre="I-No"/>
+    <personaje juego="GGS" nombre="Sin Kiske"/>
+    <personaje juego="GGS" nombre="Leo Whitefang"/>
+    <personaje juego="GGS" nombre="Ramlethal Valentine"/>
+    <personaje juego="GGS" nombre="Jack-O Valentine"/>
+    <personaje juego="GGS" nombre="Giovanna"/>
+    <personaje juego="GGS" nombre="Nagoriyuki"/>
+    <personaje juego="GGS" nombre="Goldlewis Dickinson"/>
+    <personaje juego="GGS" nombre="Happy Chaos"/>
+    <personaje juego="GGS" nombre="Bedman"/>
+    <personaje juego="GGS" nombre="Asuka R. Kreutz"/>
+</personajes>

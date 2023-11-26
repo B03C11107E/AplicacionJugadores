@@ -1,0 +1,16 @@
+<equipos>
+        <equipo nombre="FLY" />
+        <equipo nombre="TUE" />
+        <equipo nombre="Red Bull" />
+        <equipo nombre="Bandits" />
+        <equipo nombre="IBUSHIGIN" />
+        <equipo nombre="RC" />
+        <equipo nombre="KDF" />
+        <equipo nombre="GyoGun" />
+        <equipo nombre="IBSG" />
+        <equipo nombre="M.RAGE" />
+        <equipo nombre="Talon" />
+        <equipo nombre="DRX" />
+        <equipo nombre="Yamasa" />
+        <equipo nombre="Sin equipo" />
+    </equipos>

@@ -1,0 +1,5 @@
+<partidas_jugadores>
+    <partida_jugador nombre="Punk" equipo="FLY" juego="SF6" personaje="Cammy" contra="HAITANI" fecha="2023-01-01" score="3-1"/>
+    <partida_jugador nombre="Arslan Ash" equipo="Red Bull" juego="Tekken 8" personaje="Azucena" contra="Book" fecha="2023-01-01" score="3-0"/>
+    <partida_jugador nombre="Leffen" equipo="TSM" juego="GGS" personaje="Happy Chaos" contra="NBNHMR" fecha="2023-01-01" score="3-0"/>
+</partidas_jugadores>
